@@ -1,0 +1,86 @@
+/* ................................................................................................. */
+
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* ................................................................................................. */
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.data {
+    padding: 20px;
+}
+
+/* ................................................................................................. */
+
+.board {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.board div{
+    padding: 6px;
+    /* margin: 1px 0px 1px 0px; */
+    width: 50px;
+    height: 50px;
+    background-color: rgb(192, 192, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: outset;
+    border-width: 7.5px;
+}
+
+/* ................................................................................................. */
+
+.bomb {
+    background-color: rgb(199, 199, 199);
+    /* background-color: orange !important; */
+}
+
+/* ................................................................................................. */
+
+.checked {
+    background-color: rgb(218, 218, 218) !important;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Exo', sans-serif;
+    border: 2.5px solid rgb(117, 117, 117) !important;
+}
+
+/* ................................................................................................. */
+
+.containsFlag img{
+    width: 100%;
+    height: auto;
+}
+
+.gameover img {
+    width: 100%;
+    height: auto;
+}
+
+/* ................................................................................................. */
+
+.mainBomb {
+    background-color: red !important;
+}
+
+/* ................................................................................................. */
+
+.data {
+    color: darkgrey;
+}
